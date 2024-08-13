@@ -13,7 +13,7 @@ const Layout=()=>{
       <div style={{width:"300px",height:"800px"}}>
         <Navbar bg="dark" data-bs-theme="dark" >
         <Container>
-          <Nav className="me-auto" style={{display:"block",height:"755px",fontSize:"20px",width:'120px'}}>
+          <Nav className="me-auto" style={{display:"block",height:"758px",fontSize:"20px",width:'120px'}}>
             <h1>Cybrom</h1>
             <div id='sidenav'>
             <Nav.Link as={Link} to="home" style={{marginTop:"50px",marginBottom:"25px"}}>Home</Nav.Link>

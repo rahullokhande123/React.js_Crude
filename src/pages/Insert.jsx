@@ -27,8 +27,8 @@ const Insert=()=>{
   return(
     
     <>
-    <section style={{width:"90%"}}>
-    <div style={{width:"500px",marginLeft:"350px",backgroundColor:"green",marginTop:"60px",marginRight:"60px"}}>
+    <section id='insertSection' style={{width:"90%",height:"825px"}}>
+    <div style={{width:"500px",marginLeft:"350px",marginTop:"60px",marginRight:"60px"}}>
     <Container>
     <h1 style={{marginLeft:"160px",marginBottom:"50px"}}>Insert Page</h1>
     <Form>
