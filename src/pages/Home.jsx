@@ -7,7 +7,7 @@ const Home=()=>{
     return(
         <>
         <div id="homeCSS">
-          <h1 style={{marginLeft:"400px",marginBottom:"50px"}}> Welcome To Home Page </h1>
+          <h1 style={{marginLeft:"230px",marginBottom:"50px",fontFamily:"Anton SC sans-serif"}}> Welcome To Cybrom Student Dashboard </h1>
            
 
 

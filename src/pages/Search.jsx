@@ -37,10 +37,25 @@ const Search=()=>{
     return(
       <>
       <tr>
+        <td>
+          Roll No.
         <td>{key.rollno}</td>
-        <td>{key.name}</td>
+        </td>
+
+        <th>
+          Name
+          <td>{key.name}</td>
+        </th>
+        <th>
+          City
         <td>{key.city}</td>
+        </th>
+        
+        <th>
+          Fees
         <td>{key.fees}</td>
+        </th>
+        
       </tr>
       </>
     )
@@ -57,15 +72,15 @@ const Search=()=>{
      <input style={{marginLeft:"400px"}} type="text" value={rno} onChange={(e)=>{setrno(e.target.value)}} />
      <button onClick={handlesearch} style={{marginLeft:"10px",borderRadius:"10px",backgroundColor:"gray",color:"white",marginBottom:"20px"}}>Search</button>
      </div> 
-     <div style={{marginLeft:"200px",width:"50%"}}> 
+     <div style={{marginLeft:"250px",width:"50%"}}> 
      <Table striped bordered hover >
       <thead >
-        {/* <tr >
-          <th>Roll No</th>
+        <tr >
+          {/* <th>Roll No</th>
           <th>Name</th>
           <th>City</th>
-          <th>Fees</th>
-        </tr> */}
+          <th>Fees</th> */}
+        </tr>
       </thead>
       <tbody>
         {ans}
