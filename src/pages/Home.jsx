@@ -1,3 +1,4 @@
+import Search from "./Search";
 
 
 const Home=()=>{
@@ -5,7 +6,12 @@ const Home=()=>{
         <>
         <div id="homeCSS">
           <h1 style={{marginLeft:"400px",marginBottom:"50px"}}> Welcome To Home Page </h1>
+
+          <div>
+          <Search/>
+          </div>
         </div>
+        
         </>
     )
 }
