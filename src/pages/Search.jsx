@@ -51,6 +51,7 @@ const Search=()=>{
 
   return(
     <>
+    
     <section style={{display:"block"}}>
     <div style={{display:"block"}}>
      <h1 style={{marginLeft:"400px"}}>Search My Data</h1>
