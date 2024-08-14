@@ -1,22 +1,21 @@
 import { useState } from "react";
 import Search from "./Search";
+import Login from "./Login";
+import { Navigate, useNavigate } from "react-router-dom";
+
+import { CiLogin } from "react-icons/ci";
 
 const Home=()=>{
 
   const [val,setVal]=useState("");
+  // const navigate=useNavigate();
     return(
         <>
         <div id="homeCSS">
-          <h1 style={{marginLeft:"230px",marginBottom:"50px",fontFamily:"Anton SC sans-serif"}}> Welcome To Cybrom Student Dashboard </h1>
-           
-
-
+          <h1> Welcome To Cybrom Pvt. Ltd. Bhopal </h1>
 
            <Search/>
-          {/* <div style={{marginLeft:"400px"}}>
-          <input type="text" value={val} onChange={(e)=>{setVal(e.target.value)}} />
-          <button >Search</button>
-          </div> */}
+           
         </div>
         </>
     )

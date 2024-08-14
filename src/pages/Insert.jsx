@@ -30,7 +30,9 @@ const Insert=()=>{
     <section id='insertSection' style={{width:"90%",height:"825px"}}>
     <div style={{width:"500px",marginLeft:"350px",marginTop:"60px",marginRight:"60px"}}>
     <Container>
-    <h1 style={{marginLeft:"160px",marginBottom:"50px"}}>Insert Page</h1>
+
+    <h1 style={{marginLeft:"25px",marginBottom:"50px"}}>Insert Student Records</h1>
+
     <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Roll No</Form.Label>

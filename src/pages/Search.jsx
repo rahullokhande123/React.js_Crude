@@ -37,22 +37,26 @@ const Search=()=>{
     return(
       <>
       <tr>
-        <td>
+        <th>
           Roll No.
+          <hr />
         <td>{key.rollno}</td>
-        </td>
+        </th>
 
         <th>
           Name
+          <hr />
           <td>{key.name}</td>
         </th>
         <th>
           City
+          <hr />
         <td>{key.city}</td>
         </th>
         
         <th>
           Fees
+          <hr />
         <td>{key.fees}</td>
         </th>
         

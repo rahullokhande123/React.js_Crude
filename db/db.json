@@ -83,6 +83,36 @@
       "name": "Kuch Bhi",
       "city": "Nhi Pta",
       "fees": "Nhi Dena"
+    },
+    {
+      "id": "fa88",
+      "rollno": "136",
+      "name": "Tokri",
+      "city": "Bhopal",
+      "fees": "111111"
+    }
+  ],
+  "userdata": [
+    {
+      "id": "1",
+      "name": "Rahul",
+      "userid": "E121",
+      "email": "rlokhande06244@gmail.com",
+      "password": "R1234"
+    },
+    {
+      "id": "80cc",
+      "name": "Arun",
+      "userid": "E122",
+      "email": "arun@gimail.com",
+      "password": "A@1234"
+    },
+    {
+      "id": "3387",
+      "name": "Vikash",
+      "userid": "E123",
+      "email": "vikash@gmail.com",
+      "password": "V@1234"
     }
   ]
 }

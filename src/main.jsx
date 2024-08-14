@@ -4,4 +4,9 @@ import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./css/style.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />)
+import LoginContext from './LoginContext.jsx';
+ReactDOM.createRoot(document.getElementById('root')).render(
+<LoginContext>
+<App />
+</LoginContext>
+)

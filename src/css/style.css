@@ -50,7 +50,8 @@ h1
 }
 #sidenav{
     width: 100px;
-    margin: 10px;
+    margin-left: 10px;
+    margin-top: 60px;
 }
 #insertSection{
     background-image: url("/public/b3.jpg");
@@ -61,4 +62,17 @@ h1
     width: 90%;
     height: 825px;
     background-image: url("/public/b3.jpg");
+}
+#homeCSS h1{
+    color: darkmagenta;
+    margin-left: 280px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-family: fantasy;
+
+}
+#Loginlogo{
+   display: flex;
+    margin-top: 600px;
+    margin-right: 100px;
 }

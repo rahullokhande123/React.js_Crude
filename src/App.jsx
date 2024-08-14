@@ -7,6 +7,8 @@ import Display from "./pages/Display";
 import Search from "./pages/Search";
 import Update from "./pages/Update";
 import Contact from "./pages/Contact";
+import Login from "./pages/Login";
+import Registration from "./pages/Registration";
 
 
 const  App=()=>{
@@ -22,6 +24,8 @@ const  App=()=>{
                   <Route path="search" element={<Search/>}/>
                   <Route path="update" element={<Update/>} />
                   <Route path="contact" element={<Contact/>}/>
+                  <Route path="login" element={<Login/>}/>
+                  <Route path="registration" element={<Registration/>}/>
                 </Route>
             </Routes>
         
