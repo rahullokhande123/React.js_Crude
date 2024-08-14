@@ -84,7 +84,7 @@ const handleSubmit=(e)=>{
 <Form.Label>Enter Password</Form.Label>
 <Form.Control type="password"  value={pass} onChange={(e)=>{setPass(e.target.value)}} />
 </Form.Group>
-<Button variant="primary" type="submit" onClick={handleSubmit} style={{marginRight:"10px"}} >
+<Button variant="dark" type="submit" onClick={handleSubmit} style={{marginRight:"10px"}} >
 Submit
 </Button>
 
