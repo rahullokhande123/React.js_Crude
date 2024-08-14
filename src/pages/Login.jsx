@@ -92,8 +92,8 @@ Submit
 
 {/* <Button variant="success" type="submit" onClick={()=>{navigate("/registration")}}>
 Registration
-</Button>
-</Form> */}
+</Button> */}
+</Form>
 
 </div>
         </>
