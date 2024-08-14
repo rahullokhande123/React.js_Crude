@@ -88,11 +88,6 @@ const handleSubmit=(e)=>{
 Submit
 </Button>
 
-
-
-{/* <Button variant="success" type="submit" onClick={()=>{navigate("/registration")}}>
-Registration
-</Button> */}
 </Form>
 
 </div>
