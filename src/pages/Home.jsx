@@ -8,7 +8,7 @@ import { CiLogin } from "react-icons/ci";
 const Home=()=>{
 
   const [val,setVal]=useState("");
-  // const navigate=useNavigate();
+  
     return(
         <>
         <div id="homeCSS">
