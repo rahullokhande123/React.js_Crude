@@ -63,11 +63,16 @@ const handleSubmit=(e)=>{
 
     return(
         <>
-        <div style={{display:"block",marginLeft:"350px"}}>
+        <div id='LPage'>
+            <div style={{display:"flex"}}>
+            <Button style={{marginLeft:"600px",marginTop:"10px"}} variant="outline-dark"  onClick={()=>{navigate("/home")}} >Home</Button>
 
-        <Button style={{marginLeft:"600px",marginTop:"10px"}} variant="outline-dark"  onClick={()=>{navigate("/home")}} >Home</Button>
 
-        <Button style={{marginLeft:"600px",marginTop:"10px"}} variant="outline-dark"  onClick={()=>{navigate("/registration")}} >Home</Button>
+            <Button style={{marginLeft:"10px",marginTop:"10px"}} variant="outline-dark"  onClick={()=>{navigate("/registration")}} >Registration</Button>
+
+            </div>
+
+ 
 
 <h1 style={{marginLeft:"140px",marginBottom:"50px",marginTop:"50px"}}> User Login</h1>
 <Form style={{width:"500px"}}>

@@ -76,3 +76,16 @@ h1
     margin-top: 600px;
     margin-right: 100px;
 }
+#rPage{
+    display: block;
+    background-image: url("/public/b3.jpg");
+    width: 90%;
+    height: 825px;
+    padding-left: 350px;
+}
+#LPage{
+    background-image: url("/public/b3.jpg");
+    width: 90%;
+    height: 825px;
+    padding-left: 350px;
+}

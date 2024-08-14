@@ -69,8 +69,8 @@ const Update=()=>{
     return(
         <>
         <div style={{display:"block"}}>
-          <h1 style={{marginLeft:"350px"}}> Update Students Record</h1>
-          <Table striped bordered hover style={{marginLeft:"80px"}}>
+          <h1 style={{marginLeft:"350px",marginBottom:"40px",marginTop:"20px"}}> Update Students Record</h1>
+          <Table striped bordered hover style={{marginLeft:"40px"}}>
           <thead>
              <tr>
                 <th>Roll No</th>
@@ -85,7 +85,7 @@ const Update=()=>{
 
           </Table>
           <br />
-          <div style={{marginBottom:"20px"}}>
+          <div style={{marginBottom:"20px",marginLeft:"80px"}}>
           Edit Rollno<input type="text" name="rollno" value={editData.rollno} onChange={handleInput}></input>
           Name<input type="text" name="name" value={editData.name} onChange={handleInput}></input>
           City<input type="text" name="city" value={editData.city} onChange={handleInput}></input>

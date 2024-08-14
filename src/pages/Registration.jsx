@@ -29,7 +29,7 @@ const Registration=()=>{
     }
     return(
         <>
-        <div style={{display:"block",marginLeft:"360px"}}>
+        <div id='rPage'>
 
       <Button style={{marginLeft:"600px",marginTop:"10px"}} variant="outline-dark"  onClick={()=>{navigate("/home")}} >Home</Button>
 
@@ -37,7 +37,7 @@ const Registration=()=>{
         Login Page
       </Button>
 
-          <h1 style={{marginBottom:"50px",marginTop:"50px",marginLeft:"100px"}}> User Registration</h1>
+          <h1 style={{marginBottom:"70px",marginTop:"50px",marginLeft:"100px"}}> User Registration</h1>
       <Form style={{width:"500px"}}>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Enter Name</Form.Label>
