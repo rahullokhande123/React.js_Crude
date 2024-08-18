@@ -2,6 +2,7 @@
 import axios from "axios";
 import { useState,useEffect } from "react";
 import Table from 'react-bootstrap/Table';
+import Button from 'react-bootstrap/Button';
 
 const Update=()=>{
 
@@ -60,8 +61,11 @@ const Update=()=>{
           <td>{key.name}</td>
           <td>{key.city}</td>
           <td>{key.fees}</td>
-          <td width="10px"><button style={{backgroundColor:"gray",color:"white",borderRadius:"20px"}} onClick={()=>{mydel(key.id)}}>Delete</button></td>
-          <td width="10px"><button style={{backgroundColor:"red",color:"white",borderRadius:"20px"}} onClick={()=>{myEdit(key.id)}}>Edit</button></td>
+          <td width="10px"><Button variant="outline-dark" onClick={()=>{mydel(key.id)}} >Delete</Button></td>
+          
+          
+          {/* <td width="10px"><button style={{backgroundColor:"gray",color:"white",borderRadius:"20px"}} >Delete</button></td> */}
+          <td width="10px"><button style={{backgroundColor:"red",color:"white",borderRadius:"20px"}} >Edit</button></td>
          </tr>
       </>
     )
