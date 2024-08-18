@@ -54,7 +54,7 @@ const Insert=()=>{
         <Form.Control type="text" name="fees" value={input.fees} onChange={handlechange} />
       </Form.Group>
 
-      <Button variant="primary" type="submit" onClick={handleclick}>
+      <Button variant="dark" type="submit" onClick={handleclick}>
         Submit
       </Button>
     </Form>
