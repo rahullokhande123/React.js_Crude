@@ -5,6 +5,7 @@ import { Container } from 'react-bootstrap';
 import { useState } from 'react';
 import axios from 'axios';
 import { message } from 'antd';
+import { toast } from 'react-toastify';
 
 
 const Insert=()=>{
@@ -20,6 +21,7 @@ const Insert=()=>{
     let url="http://localhost:3000/Student";
     axios.post(url,input).then((res)=>{
       alert("Data Posted Successfully")
+      // const notify = () => toast.success("Data Posted Successfully");
       // message.success("Data Posted Successfully")
       setInput({});
     }).catch((err)=>{
