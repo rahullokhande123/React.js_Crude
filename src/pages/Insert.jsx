@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import { Container } from 'react-bootstrap';
 import { useState } from 'react';
 import axios from 'axios';
+import { message } from 'antd';
 
 
 const Insert=()=>{
@@ -18,7 +19,8 @@ const Insert=()=>{
   const handleclick=()=>{
     let url="http://localhost:3000/Student";
     axios.post(url,input).then((res)=>{
-      alert("DATA POSTED SUCCESSFULLY")
+      alert("Data Posted Successfully")
+      // message.success("Data Posted Successfully")
       setInput({});
     }).catch((err)=>{
       console.log("Error",err);

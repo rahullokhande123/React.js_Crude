@@ -4,6 +4,10 @@ import { useState,useEffect } from "react";
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { message } from "antd";
+
 const Update=()=>{
 
   const [mydata,setmydata]=useState([])
@@ -48,7 +52,9 @@ const Update=()=>{
   const handleSubmit=()=>{
     let url=`http://localhost:3000/Student/${editData.id}`
     axios.put(url,editData).then(()=>{
-      alert("Record Successfully updated!!!");
+      
+      message.success("Record Successfully updated!!!");
+      
       loadData();
     })
   }
@@ -61,11 +67,11 @@ const Update=()=>{
           <td>{key.name}</td>
           <td>{key.city}</td>
           <td>{key.fees}</td>
-          <td width="10px"><Button variant="outline-dark" onClick={()=>{mydel(key.id)}} >Delete</Button></td>
-          <td width="10px"><Button variant="outline-dark" onClick={()=>{myEdit(key.id)}} >Edit</Button></td>
+          <td width="10px"><Button variant="danger" onClick={()=>{mydel(key.id)}} >Delete</Button>{' '}</td>
+          <td width="10px"><Button variant="success" onClick={()=>{myEdit(key.id)}} >Edit</Button></td>
+
+          {/* <Button variant="danger">Danger</Button>{' '} */}
           
-          {/* <td width="10px"><button style={{backgroundColor:"gray",color:"white",borderRadius:"20px"}} >Delete</button></td> */}
-          <td width="10px"><button style={{backgroundColor:"red",color:"white",borderRadius:"20px"}} >Edit</button></td>
          </tr>
       </>
     )
@@ -74,7 +80,7 @@ const Update=()=>{
         <>
         <div style={{display:"block"}}>
           <h1 style={{marginLeft:"350px",marginBottom:"40px",marginTop:"20px"}}> Update Students Record</h1>
-          <Table striped bordered hover style={{marginLeft:"40px"}}>
+          <Table striped bordered hover style={{marginLeft:"40px",textAlign:"center"}}>
           <thead>
              <tr>
                 <th>Roll No</th>
@@ -95,7 +101,7 @@ const Update=()=>{
           City<input type="text" name="city" value={editData.city} onChange={handleInput}></input>
           Fees<input type="text" name="fees" value={editData.fees} onChange={handleInput}></input>
 
-          <button onClick={handleSubmit} style={{marginLeft:"20px",backgroundColor:"red",color:"white"}}>Update Save!!</button>
+          <button onClick={handleSubmit} style={{marginLeft:"20px",backgroundColor:"green",color:"white"}}>Update Save!!</button>
           </div>
           </div>
         </>
