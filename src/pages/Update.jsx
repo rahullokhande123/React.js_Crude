@@ -62,7 +62,7 @@ const Update=()=>{
           <td>{key.city}</td>
           <td>{key.fees}</td>
           <td width="10px"><Button variant="outline-dark" onClick={()=>{mydel(key.id)}} >Delete</Button></td>
-          
+          <td width="10px"><Button variant="outline-dark" onClick={()=>{myEdit(key.id)}} >Edit</Button></td>
           
           {/* <td width="10px"><button style={{backgroundColor:"gray",color:"white",borderRadius:"20px"}} >Delete</button></td> */}
           <td width="10px"><button style={{backgroundColor:"red",color:"white",borderRadius:"20px"}} >Edit</button></td>
