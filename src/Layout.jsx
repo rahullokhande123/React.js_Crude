@@ -22,7 +22,9 @@ const Layout=()=>{
         <Container>
           <Nav className="me-auto" style={{display:"block",height:"758px",fontSize:"20px",width:'120px'}}>
 
-           <img style={{marginTop:"20px"}} src='/public/Cybrom.png' width="150px" />
+            <img style={{marginTop:"20px"}} src='/public/Logo.png' width="130px" />
+
+           <img style={{marginLeft:"25px"}} src='/public/Cybrom.png' width="130px" />
 
             <div id='sidenav'>
             {/* <Nav.Link as={Link} to="home" style={{marginTop:"50px",marginBottom:"25px"}}>Home</Nav.Link> */}
@@ -40,12 +42,6 @@ const Layout=()=>{
         </div>
 
         </Container>
-
-
-        
-        
-        
-
       </Navbar>
       </div>
       <div className='midsection'></div>
