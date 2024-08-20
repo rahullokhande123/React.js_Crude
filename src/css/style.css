@@ -90,5 +90,7 @@ h1
     padding-left: 350px;
 }
 #homeCart{
+    display: flex;
+    margin-left: 100px;
     
 }

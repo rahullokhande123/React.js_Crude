@@ -22,12 +22,14 @@ const Home=()=>{
 
       <div id="homeCart">
 
-      <Card style={{ width: '10rem' }}>
+      <Card style={{ width: '10rem',marginRight:"10px" }}>
       <Card.Img variant="top" src="/public/python.jpeg" style={{width:"100%"}}/>
       <Card.Body>
         <Card.Title>Python</Card.Title>
         <Card.Text>
-          Fullstack Python 
+          <b style={{fontSize:"13px"}}>
+          Fullstack Python
+          </b>
         </Card.Text>
         <Card.Text>
           <b>Fees : 45,000 Rs.</b>
@@ -36,12 +38,14 @@ const Home=()=>{
       </Card.Body>
     </Card>
 
-    <Card style={{ width: '10rem' }}>
-      <Card.Img variant="top" src="/public/python.jpeg" style={{width:"100%"}}/>
+    <Card style={{ width: '10rem',marginRight:"10px" }}>
+      <Card.Img variant="top" src="/public/java1.jpg" style={{width:"100%",height:"110px"}}/>
       <Card.Body>
         <Card.Title>Java</Card.Title>
         <Card.Text>
-          Fullstack Java 
+          <b style={{fontSize:"13px"}}>
+          Fullstack Java
+          </b>
         </Card.Text>
         <Card.Text>
           <b>Fees : 50,000 Rs.</b>
@@ -55,7 +59,10 @@ const Home=()=>{
       <Card.Body>
         <Card.Title>MERN Stack</Card.Title>
         <Card.Text>
-        MongoDB, Express, React, and Node. 
+          <b style={{fontSize:"13px"}}>
+          MongoDB, Express, React, and Node.
+          </b>
+         
         </Card.Text>
         <Card.Text>
           <b>Fees : 42,000 Rs.</b>
