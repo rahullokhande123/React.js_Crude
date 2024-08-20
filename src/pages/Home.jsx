@@ -20,18 +20,20 @@ const Home=()=>{
 
            {/* ========================= Cart Section ======================= */}
 
-           <Card style={{ width: '12rem' }}>
-      <Card.Img variant="top" src="/public/Logo2.png" />
+      <div id="homeCart">
+
+      <Card style={{ width: '12rem' }}>
+      <Card.Img variant="top" src="/public/python.jpeg" style={{width:"190px"}}/>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Python</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Fullstack Python 
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Purchase</Button>
       </Card.Body>
     </Card>
-           
+      </div>
+      
         </div>
         </>
     )
