@@ -91,6 +91,27 @@ h1
 }
 #homeCart{
     display: flex;
-    margin-left: 100px;
+    margin-left: 50px;
     
+}
+#cartSide{
+    border: 2px solid white;
+    width: 180px;
+    height: 130px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+#cart{
+    display: flex;
+}
+
+#cartSide1{
+    border: 2px solid white;
+    width: 180px;
+    height: 130px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: white;
 }

@@ -19,10 +19,11 @@ const Home=()=>{
            <Search/>
 
            {/* ========================= Cart Section ======================= */}
-
+      <h2 style={{marginLeft:"50px"}}>Over Courses -</h2>
+      <section id="cart" >
       <div id="homeCart">
 
-      <Card style={{ width: '15rem',marginRight:"10px" }}>
+      <Card style={{ width: '15rem',marginRight:"20px" }}>
       <Card.Img variant="top" src="/public/python.jpeg" style={{width:"100%"}}/>
       <Card.Body>
         <Card.Title>Python</Card.Title>
@@ -35,7 +36,7 @@ const Home=()=>{
           Duration: 6 Months 
           </b>
           <b style={{fontSize:"13px"}}>
-           + 2 Month Intrenship
+           + 2 Month Internship
           </b>
         </Card.Text>
         <Card.Text>
@@ -45,13 +46,20 @@ const Home=()=>{
       </Card.Body>
     </Card>
 
-    <Card style={{ width: '10rem',marginRight:"10px" }}>
-      <Card.Img variant="top" src="/public/java.webp" style={{width:"100%",height:"110px"}}/>
+    <Card style={{ width: '15rem',marginRight:"20px" }}>
+      <Card.Img variant="top" src="/public/java.webp" style={{width:"100%",height:"160px"}}/>
       <Card.Body>
         <Card.Title>Java</Card.Title>
         <Card.Text>
           <b style={{fontSize:"13px"}}>
           Fullstack Java
+          </b>
+          <br />
+          <b style={{fontSize:"13px"}}>
+          Duration: 8 Months 
+          </b>
+          <b style={{fontSize:"13px"}}>
+           + 2 Month Internship
           </b>
         </Card.Text>
         <Card.Text>
@@ -61,15 +69,21 @@ const Home=()=>{
       </Card.Body>
     </Card>
 
-    <Card style={{ width: '10rem' }}>
-      <Card.Img variant="top" src="/public/python.jpeg" style={{width:"100%"}}/>
+    <Card style={{ width: '15rem' }}>
+      <Card.Img variant="top" src="/public/mern.jpg" style={{width:"100%",height:"160px"}}/>
       <Card.Body>
         <Card.Title>MERN Stack</Card.Title>
         <Card.Text>
           <b style={{fontSize:"13px"}}>
-          MongoDB, Express, React, and Node.
+          MongoDB, Express, React, Node.
           </b>
-         
+          <br />
+          <b style={{fontSize:"13px"}}>
+          Duration: 6 Months 
+          </b>
+          <b style={{fontSize:"13px"}}>
+           + 2 Month Internship
+          </b>
         </Card.Text>
         <Card.Text>
           <b>Fees : 42,000 Rs.</b>
@@ -78,8 +92,21 @@ const Home=()=>{
       </Card.Body>
     </Card>
       </div>
-      
+
+      <div id="cartSide">
+        <h2 style={{fontSize:"25px",textAlign:"center",margin:"10px"}}>Total Course</h2>
+        <b style={{fontSize:'25px',color:"blue",marginLeft:"20px"}}>100+</b>
+        <img src="/public/books.png" width="50px" style={{margin:'10px'}} />
         </div>
+
+        <div id="cartSide1">
+        <h2 style={{fontSize:"25px",textAlign:"center",margin:"10px"}}>Hours Spend</h2>
+        <b style={{fontSize:'25px',color:"blue",marginLeft:"20px"}}>245+</b>
+        <img src="/public/books.png" width="50px" style={{margin:'10px'}} />
+        </div>
+        
+      </section>
+    </div>
         </>
     )
 }
