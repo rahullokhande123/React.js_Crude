@@ -22,13 +22,20 @@ const Home=()=>{
 
       <div id="homeCart">
 
-      <Card style={{ width: '10rem',marginRight:"10px" }}>
+      <Card style={{ width: '15rem',marginRight:"10px" }}>
       <Card.Img variant="top" src="/public/python.jpeg" style={{width:"100%"}}/>
       <Card.Body>
         <Card.Title>Python</Card.Title>
         <Card.Text>
           <b style={{fontSize:"13px"}}>
           Fullstack Python
+          </b>
+          <br />
+          <b style={{fontSize:"13px"}}>
+          Duration: 6 Months 
+          </b>
+          <b style={{fontSize:"13px"}}>
+           + 2 Month Intrenship
           </b>
         </Card.Text>
         <Card.Text>
@@ -39,7 +46,7 @@ const Home=()=>{
     </Card>
 
     <Card style={{ width: '10rem',marginRight:"10px" }}>
-      <Card.Img variant="top" src="/public/java1.jpg" style={{width:"100%",height:"110px"}}/>
+      <Card.Img variant="top" src="/public/java.webp" style={{width:"100%",height:"110px"}}/>
       <Card.Body>
         <Card.Title>Java</Card.Title>
         <Card.Text>
