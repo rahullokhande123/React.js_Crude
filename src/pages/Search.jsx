@@ -70,8 +70,9 @@ const Search=()=>{
     <>
     <section style={{display:"block"}}>
     <div style={{display:"block"}}>
-     {/* <h1 style={{marginLeft:"400px"}}>Search My Data</h1> */}
-     <input style={{marginLeft:"400px"}} type="text" value={rno} onChange={(e)=>{setrno(e.target.value)}} />
+     
+     <b style={{marginLeft:"400px",fontSize:"20px"}}>Search With Roll No.</b>
+     <input style={{marginLeft:"10px"}} type="text" value={rno} onChange={(e)=>{setrno(e.target.value)}} />
      <button onClick={handlesearch} style={{marginLeft:"10px",borderRadius:"10px",backgroundColor:"gray",color:"white",marginBottom:"20px"}}>Search</button>
      </div> 
      <div style={{marginLeft:"250px",width:"50%"}}> 
