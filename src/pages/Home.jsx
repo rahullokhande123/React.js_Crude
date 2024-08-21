@@ -7,6 +7,7 @@ import Card from 'react-bootstrap/Card';
 
 import { CiLogin } from "react-icons/ci";
 
+
 const Home=()=>{
 
   const [val,setVal]=useState("");
@@ -15,6 +16,13 @@ const Home=()=>{
         <>
         <div id="homeCSS">
           <h1> Welcome To Cybrom Pvt. Ltd. Bhopal </h1>
+
+          {/* ================= Profile =============== */}
+
+          <a href="#" style={{textDecoration:"none",color:"black"}}>
+          <img src="/public/r1.jpg" width="50px" height="50px" style={{border:"1px solid white",borderRadius:"50%",marginLeft:"20px"}} />
+          <b style={{marginLeft:"10px"}}>Mr. Rahul Lokhande</b>
+          </a>
 
            <Search/>
 
