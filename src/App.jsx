@@ -9,6 +9,7 @@ import Update from "./pages/Update";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Registration from "./pages/Registration";
+import Profile from "./pages/Profile";
 
 
 const  App=()=>{
@@ -26,6 +27,7 @@ const  App=()=>{
                   <Route path="contact" element={<Contact/>}/>
                   <Route path="login" element={<Login/>}/>
                   <Route path="registration" element={<Registration/>}/>
+                  <Route path="profile" element={<Profile/>}/>
                 </Route>
             </Routes>
         

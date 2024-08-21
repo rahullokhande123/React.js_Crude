@@ -1,16 +1,19 @@
 import { useState } from "react";
 import Search from "./Search";
 import Login from "./Login";
+import Profile from "./Profile";
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 import { CiLogin } from "react-icons/ci";
+import { Navigate, useNavigate } from "react-router-dom";
 
 
 const Home=()=>{
 
   const [val,setVal]=useState("");
+  const navigate=useNavigate();
   
     return(
         <>
@@ -20,8 +23,10 @@ const Home=()=>{
           {/* ================= Profile =============== */}
 
           <a href="#" style={{textDecoration:"none",color:"black"}}>
-          <img src="/public/r1.jpg" width="50px" height="50px" style={{border:"1px solid white",borderRadius:"50%",marginLeft:"20px"}} />
-          <b style={{marginLeft:"10px"}}>Mr. Rahul Lokhande</b>
+          <img src="/public/r1.jpg" width="50px" height="50px" onClick={()=>{navigate("/profile")}} 
+          style={{border:"1px solid white",borderRadius:"50%",marginLeft:"20px"}} />
+          
+          <b style={{marginLeft:"10px"}} onClick={()=>{navigate("/profile")}} >Mr. Rahul Lokhande</b>
           </a>
 
            <Search/>
