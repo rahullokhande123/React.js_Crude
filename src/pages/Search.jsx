@@ -64,9 +64,7 @@ const Search=()=>{
       </>
     )
   })}
-  // else{
-  //    ans= <h1>Do data Found</h1>
-  // }
+ 
 
   return(
     <>
@@ -78,14 +76,7 @@ const Search=()=>{
      </div> 
      <div style={{marginLeft:"250px",width:"50%"}}> 
      <Table striped bordered hover >
-      <thead >
-        <tr >
-          {/* <th>Roll No</th>
-          <th>Name</th>
-          <th>City</th>
-          <th>Fees</th> */}
-        </tr>
-      </thead>
+    
       <tbody>
         {ans}
       </tbody>
@@ -93,8 +84,6 @@ const Search=()=>{
       </div>
       </section>
 
-      {/* <button onClick={()=>{gotoDisplay()}}>Go TO Display</button>
-      <button onClick={back}>Back</button> */}
 
     </>
   )
