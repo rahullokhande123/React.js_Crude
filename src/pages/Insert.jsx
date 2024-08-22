@@ -7,9 +7,12 @@ import axios from 'axios';
 import { message } from 'antd';
 import { toast } from 'react-toastify';
 
+import { useNavigate } from 'react-router-dom';
+
 
 const Insert=()=>{
   const [input,setInput]=useState({})
+  const navigate= useNavigate();
 
   const handlechange=(e)=>{
     let name=e.target.name;
@@ -31,8 +34,12 @@ const Insert=()=>{
   return(
     
     <>
+
     <section id='insertSection' style={{width:"90%",height:"825px"}}>
     <div style={{width:"500px",marginLeft:"350px",marginTop:"60px",marginRight:"60px"}}>
+
+
+    <Button style={{marginLeft:"700px",marginTop:"10px"}} variant="outline-dark"  onClick={()=>{navigate("/home")}} >Home</Button>
     <Container>
 
     <h1 style={{marginLeft:"25px",marginBottom:"50px"}}>Insert Student Records</h1>

@@ -31,7 +31,7 @@ const Layout=()=>{
             <Nav.Link as={Link} to="insert" style={{marginBottom:"25px"}}>Insert</Nav.Link>
             <Nav.Link as={Link} to="display" style={{marginBottom:"25px"}}>Display</Nav.Link>
             {/* <Nav.Link as={Link} to="search" style={{marginBottom:"25px"}}>Search</Nav.Link> */}
-            <Nav.Link as={Link} to="update" style={{marginBottom:"25px"}}>Update</Nav.Link>
+            {/* <Nav.Link as={Link} to="update" style={{marginBottom:"25px"}}>Update</Nav.Link> */}
             <Nav.Link as={Link} to="contact" style={{marginBottom:"25px"}}>Contact</Nav.Link>
             </div>
           </Nav>

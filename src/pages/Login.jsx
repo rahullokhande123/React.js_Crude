@@ -1,34 +1,4 @@
 
-// import AuthUser from "../components/authuser";
-// import UnauthUser from "../components/unauthuser";
-// import { useContext } from "react";
-// import { myloginContext } from "../LoginContext";
-// import Registration from "./Registration";
-// import { Navigate, useNavigate } from "react-router-dom";
-
-// const Login=()=>{
-  
-//   const {user}=useContext(myloginContext);
-//   const navigate=useNavigate();
-
-//   return(
-//      <>
-//      <div style={{display:"block"}}>
-//       <h1></h1>
-//       {user.auth ? <AuthUser/> : <UnauthUser/>}
-//       </div>
-      
-//       <div style={{marginTop:"64px"}}>
-//       <button onClick={()=>{navigate("/registration")}} >Registration</button>
-//       </div>
-//      </>
-//   )
-// }
-// export default Login;
-
-
-
-
 import axios from 'axios';
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
