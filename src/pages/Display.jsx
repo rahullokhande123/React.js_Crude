@@ -4,9 +4,14 @@ import { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import Table from 'react-bootstrap/Table';
 
+import { useNavigate } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+
 const Display=()=>{
 
   const [stuData,setData]=useState([]);
+  const navigate= useNavigate();
 
   const loadstuData=()=>{
     let url="http://localhost:3000/Student";
@@ -35,6 +40,9 @@ const Display=()=>{
   return(
     <>
       <Container>
+          
+      <Button style={{marginLeft:"1050px",marginTop:"10px"}} variant="outline-dark"  onClick={()=>{navigate("/home")}} >Home</Button>
+
         <h1 style={{marginLeft:"400px",marginBottom:"50px"}}>Cybrom Student Data</h1>
         <Table striped bordered hover>
         <thead>
