@@ -3,6 +3,8 @@ import Search from "./Search";
 import Login from "./Login";
 import Profile from "./Profile";
 
+import img1 from "../../public/python.jpeg";
+
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
@@ -37,7 +39,7 @@ const Home=()=>{
       <div id="homeCart">
 
       <Card style={{ width: '15rem',marginRight:"20px" }}>
-      <Card.Img variant="top" src="/public/python.jpeg" style={{width:"100%",height:"130px"}}/>
+      <Card.Img variant="top" src={img1} style={{width:"100%",height:"130px"}}/>
       <Card.Body>
         <Card.Title>Python</Card.Title>
         <Card.Text>
